@@ -337,7 +337,8 @@ class _HomeScreenState extends State<_HomeScreen> {
               onPressed: _addEntry,
               child: const Text('Add Entry'),
             ),
-            const SizedBox(height: 10,),
+            const SizedBox(height: 4,),
+            const SizedBox(height: 4,),
             ElevatedButton(
               onPressed: _makeScreenshot,
               child: const Text('Save Screenshot'),
