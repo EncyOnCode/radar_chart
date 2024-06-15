@@ -37,7 +37,7 @@ void addEntry(
   titleControllers.add(TextEditingController());
   valueControllers.add(TextEditingController());
   angleControllers.add(TextEditingController(text: '0.0'));
-  offsetControllers.add(TextEditingController(text: '0.5'));
+  offsetControllers.add(TextEditingController(text: '0.1'));
   updateChart();
 }
 
